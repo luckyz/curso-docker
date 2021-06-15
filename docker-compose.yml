@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  xbmysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: pass
+    ports:
+      - "3306":"3306"
+  web:
+    build: .
+    container_name: php_curso
+    depends_on:
+      - xbmysql
+    ports:
+      - "80":"80"
