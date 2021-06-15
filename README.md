@@ -6,3 +6,4 @@ Ejemplo para crear un container de un archivo PHP, levantando un servidor de Apa
 ## Uso
 
 El archivo `commands.sh` contiene una lista de comandos utiles de ejemplo para hacer uso y administracion de Docker
+En tanto, `mysql_commands.md` muestra los pasos para crear la Base de Datos de ejemplo de MySQL
