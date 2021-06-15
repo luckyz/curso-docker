@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  xbmysql:
+  dbmysql:
     image: mysql:5.7
     environment:
       MYSQL_ROOT_PASSWORD: pass
